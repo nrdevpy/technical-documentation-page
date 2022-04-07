@@ -1,27 +1,37 @@
 /* === === === Globals === === === */
-
+:root {
+    --black: #000;
+    --gray: rgb(225, 225, 225);
+}
 html {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+h1 {
+    text-align: center;
+}
 /* === === === Utilities === === === */
 .container {
     margin: 0 auto;
     width: 95%;
 }
-
+.code {
+    padding: .8rem;
+    margin-bottom: .5rem;
+    background-color: var(--gray);
+    border-radius: .2rem;
+}
 /* === === === BEM === === === */
 /* Nav */
 .nav__links {
     height: 7.7rem;
     overflow: auto;
     padding-left: 0;
-    border: 1px solid #000;
+    border: 2px solid var(--black);
 }
 .nav__links > li {
     list-style: none;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid var(--black);
 }
 .nav__links > li:last-of-type {
     border-bottom: unset;
