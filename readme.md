@@ -12,3 +12,8 @@ Technical Documentation Page was created for freeCodeCamp certification.
 <br>
 
 ## CSS
+* Custom Properties.
+* (BEM) Block Element Modifier.
+* CSS Grid Layout.
+* Responsive Web Design
+* Mobile First.
